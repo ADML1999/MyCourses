@@ -3,7 +3,7 @@
 
 **O projeto será desenvolvido em:**
 ```
-HTML / CSS / JS / PYTHON
+HTML / CSS / JS / PYTHON / SQL
 ```
 **Objetivos**
 - Home page
