@@ -2,16 +2,22 @@
     width: 100vw;
     height: 15vh;
     text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
 }
 .css-header img {
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
 }
 .profile {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+.profile p {
+    text-transform: capitalize;
 }
 .css-nav {
     width: 100vw;
