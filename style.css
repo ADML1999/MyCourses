@@ -1,20 +1,15 @@
 .css-header {
     width: 100vw;
-    height: 15vh;
-    background-color: chocolate;
-}
+    height: 15vh;}
 .css-nav {
     width: 100vw;
     height: 5vh;
-    background-color: orange;
 }
 .css-main {
     width: 100vw;
     height: 70vh;
-    background-color: brown;
 }
 .css-footer {
     width: 100vw;
     height: 10vh;
-    background-color: red;
 }
