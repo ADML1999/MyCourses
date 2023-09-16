@@ -1,6 +1,12 @@
 .css-header {
     width: 100vw;
-    height: 15vh;}
+    height: 15vh;
+}
+.css-header img {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
 .css-nav {
     width: 100vw;
     height: 5vh;
