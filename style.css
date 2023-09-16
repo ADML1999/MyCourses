@@ -1,11 +1,17 @@
 .css-header {
     width: 100vw;
     height: 15vh;
+    text-align: center;
 }
 .css-header img {
     width: 30px;
     height: 30px;
-    background-color: red;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .css-nav {
     width: 100vw;
