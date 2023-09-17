@@ -23,6 +23,22 @@
     justify-content: space-around;
     overflow: hidden;
 }
+.css-nav button {
+    width: 17vw;
+    border: none;
+    background-color: black;
+    overflow: hidden;
+}
+.css-nav button:hover {
+    background-color: white;
+    color: black;
+}
+.css-nav a:link {
+    color: white;
+}
+.css-nav a:hover {
+    color: black;
+}
 .css-main {
     width: 100vw;
     height: 70vh;
