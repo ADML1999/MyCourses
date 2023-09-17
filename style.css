@@ -46,4 +46,7 @@
 .css-footer {
     width: 100vw;
     height: 10vh;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
