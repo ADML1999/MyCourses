@@ -42,6 +42,12 @@
 .css-main {
     width: 100vw;
     height: 70vh;
+    text-align: center;
+    font-size: 18px;
+}
+.css-main h2 {
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .css-footer {
     width: 100vw;
