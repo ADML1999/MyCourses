@@ -46,6 +46,7 @@
     height: 70vh;
     text-align: center;
     font-size: 18px;
+    overflow: hidden;
 }
 .css-main h2 {
     font-size: 24px;
@@ -101,7 +102,18 @@ input {
     width: 100vw;
     height: 70vh;
 }
-
+#slide1:checked ~ .s1 {
+    margin-bottom: 0;
+}
+#slide2:checked ~ .s1 {
+    margin-bottom: -70vh;
+}
+#slide3:checked ~ .s1 {
+    margin-bottom: -140vh;
+}
+#slide4:checked ~ .s1 {
+    margin-bottom: -210vh;
+}
 
 .css-footer {
     width: 100vw;
