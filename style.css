@@ -71,6 +71,25 @@
     height: 70vh;
     background-color: yellow;
 }
+.navigation-slides {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 4.s;
+}
+.bar:hover {
+    background-color: white;
+}
 
 .css-footer {
     width: 100vw;
