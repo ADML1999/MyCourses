@@ -52,15 +52,23 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .home {
+    width: 100vw;
+    height: 70vh;
     background-color: red;
 }
 .fazendo {
+    width: 100vw;
+    height: 70vh;
     background-color: rebeccapurple;
 }
 .finalizados {
+    width: 100vw;
+    height: 70vh;
     background-color: blue;
 }
 .lista-desejos {
+    width: 100vw;
+    height: 70vh;
     background-color: yellow;
 }
 
