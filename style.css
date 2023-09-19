@@ -70,7 +70,17 @@
 .lista-desejos {
     width: 100vw;
     height: 70vh;
+    background-color: green;
+}
+.galeria {
+    width: 100vw;
+    height: 70vh;
     background-color: yellow;
+}
+.mais-info {
+    width: 100vw;
+    height: 70vh;
+    background-color: orange;
 }
 
 .css-footer {
