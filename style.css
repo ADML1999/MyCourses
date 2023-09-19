@@ -16,6 +16,7 @@
 .profile p {
     text-transform: capitalize;
 }
+
 .css-nav {
     width: 100vw;
     height: 5vh;
@@ -39,6 +40,7 @@
 .css-nav a:hover {
     color: black;
 }
+
 .css-main {
     width: 100vw;
     height: 70vh;
@@ -49,6 +51,27 @@
     font-size: 24px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.home {
+    width: 100vw;
+    height: 70vh;
+    background-color: red;
+}
+.fazendo {
+    width: 100vw;
+    height: 70vh;
+    background-color: rebeccapurple;
+}
+.finalizados {
+    width: 100vw;
+    height: 70vh;
+    background-color: blue;
+}
+.lista-desejos {
+    width: 100vw;
+    height: 70vh;
+    background-color: yellow;
+}
+
 .css-footer {
     width: 100vw;
     height: 10vh;
