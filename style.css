@@ -46,18 +46,11 @@
     height: 70vh;
     text-align: center;
     font-size: 18px;
-    overflow: hidden;
 }
 .css-main h2 {
     font-size: 24px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-<<<<<<< HEAD
-=======
-input {
-    display: none;
-}
->>>>>>> 6fb7872ad4bad55c419816fd523ecec1d9e355d8
 .home {
     width: 100vw;
     height: 70vh;
@@ -78,48 +71,6 @@ input {
     height: 70vh;
     background-color: yellow;
 }
-<<<<<<< HEAD
-=======
-.navigation-slides {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-}
-.bar {
-    width: 70px;
-    height: 17px;
-    border: 2px solid white;
-    margin: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 4.s;
-}
-.bar:hover {
-    background-color: white;
-}
-.slides {
-    width: 100vw;
-    height: 280vh;
-}
-.slide {
-    width: 100vw;
-    height: 70vh;
-}
-#slide1:checked ~ .s1 {
-    margin-bottom: 0;
-}
-#slide2:checked ~ .s1 {
-    margin-bottom: -70vh;
-}
-#slide3:checked ~ .s1 {
-    margin-bottom: -140vh;
-}
-#slide4:checked ~ .s1 {
-    margin-bottom: -210vh;
-}
->>>>>>> 6fb7872ad4bad55c419816fd523ecec1d9e355d8
 
 .css-footer {
     width: 100vw;
