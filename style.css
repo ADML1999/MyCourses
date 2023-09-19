@@ -67,7 +67,12 @@
 .fazendo {
     width: 100vw;
     height: 70vh;
-    background-color: rebeccapurple;
+    background-image: url(/img/fiap.png);
+    background-size: 500px;
+    color: white;
+}
+.fazendo hr {
+    margin: 50px;
 }
 .finalizados {
     width: 100vw;
