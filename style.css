@@ -53,9 +53,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
     width: 100vw;
     height: 70vh;
-    background-color: red;
+    background-image: url(/img/40595137_1033954676783059_9056232267839438848_n.jpg);
+    background-position-y: -270px;
+    background-position-x: 150px;
 }
 .fazendo {
     width: 100vw;
