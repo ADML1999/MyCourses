@@ -38,6 +38,7 @@
     width: 40px;
     height: 40px;
 }
+
 .css-main {
     width: 100vw;
     height: 80vh;
@@ -48,6 +49,9 @@
 .css-main h2 {
     font-size: 24px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.css-main h3 {
+    color: red;
 }
 .home {
     display: flex;
@@ -63,7 +67,6 @@
 .fazendo {
     width: 100vw;
     height: 80vh;
-    color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -71,7 +74,9 @@
 .finalizados {
     width: 100vw;
     height: 80vh;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .lista-desejos {
     width: 100vw;
