@@ -67,9 +67,7 @@
 .fazendo {
     width: 100vw;
     height: 70vh;
-    background-image: url(/img/fiap.png);
-    background-size: 500px;
-    color: white;
+    color: black;
 }
 .fazendo hr {
     margin: 50px;
