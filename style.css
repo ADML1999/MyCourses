@@ -100,9 +100,19 @@
 .lista-desejos {
     width: 100vw;
     height: 80vh;
-}
-.cursoemvideo {
     display: flex;
+    flex-direction: column;
+}
+.ln {
+    display: flex;
+}
+.clm {
+    display: flex;
+    flex-direction: column;
+}
+.break {
+    flex-basis: 100%;
+    width: 0;
 }
 .galeria {
     width: 100vw;
