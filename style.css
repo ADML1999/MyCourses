@@ -89,20 +89,20 @@
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.cursos_concluidos {
+.cursos {
     display: flex;
     justify-content: space-around;
 }
-.curso01 {
+.cs {
+    border: 1px solid blanchedalmond;
     background-color: rgb(252, 201, 218);
 }
-.curso02 {
-    background-color: rgb(252, 201, 218);
-}
-
 .lista-desejos {
     width: 100vw;
     height: 80vh;
+}
+.cursoemvideo {
+    display: flex;
 }
 .galeria {
     width: 100vw;
