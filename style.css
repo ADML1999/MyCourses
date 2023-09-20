@@ -1,28 +1,9 @@
-.css-header {
-    width: 100vw;
-    height: 15vh;
-    text-align: center;
-    background-color: black;
-    color: white;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.css-header img {
-    width: 60px;
-    height: 60px;
-}
-.profile p {
-    text-transform: capitalize;
-}
-
 .css-nav {
     width: 100vw;
     height: 5vh;
     display: flex;
     justify-content: space-around;
-    overflow: hidden;
+    position: fixed;
 }
 .css-nav button {
     width: 17vw;
@@ -41,9 +22,25 @@
     color: black;
 }
 
+.css-header {
+    padding-top: 30px;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.css-header img {
+    width: 40px;
+    height: 40px;
+}
 .css-main {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
     font-size: 18px;
     overflow: hidden;
@@ -57,45 +54,44 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 128, 170);
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-image: url(/img/40595137_1033954676783059_9056232267839438848_n.jpg);
-    background-position-y: -270px;
-    background-position-x: 150px;
+    background-size: 35%;
 }
 .fazendo {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     color: black;
-}
-.fazendo hr {
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .finalizados {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: blue;
 }
 .lista-desejos {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: green;
 }
 .galeria {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: yellow;
 }
 .mais-info {
     width: 100vw;
-    height: 70vh;
+    height: 80vh;
     background-color: orange;
 }
 
 .css-footer {
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
     color: white;
     background-color: black;
     text-align: center;
