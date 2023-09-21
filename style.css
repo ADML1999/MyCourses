@@ -61,7 +61,7 @@
     color: rgb(255, 128, 170);
     width: 100vw;
     height: 80vh;
-    background-image: url(/img/40595137_1033954676783059_9056232267839438848_n.jpg);
+    background-image: url(/40595137_1033954676783059_9056232267839438848_n.jpg);
     background-size: 35%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -104,6 +104,7 @@
     flex-direction: column;
 }
 .ln {
+    padding: 10px;
     display: flex;
 }
 .clm {
