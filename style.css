@@ -109,16 +109,6 @@ h2, h3 {
     width: 730px;
     height: 480px;
 }
-.mais-info {
-    width: 100vw;
-    height: 80vh;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-.mais-info h5 {
-    font-size: 50px;
-    color: palevioletred;
-}
 
 .css-footer {
     width: 100vw;
