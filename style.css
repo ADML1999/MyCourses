@@ -1,14 +1,16 @@
-h2, h3 {
+h2, h3, h5 {
     color: red;
     font-size: 24px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .css-nav {
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     position: fixed;
+    background-color: black;
 }
 .css-nav button {
     width: 17vw;
@@ -27,31 +29,22 @@ h2, h3 {
     color: black;
 }
 
-.css-header {
-    padding-top: 30px;
-    width: 100vw;
-    height: 10vh;
-    text-align: center;
-    background-color: black;
-    color: white;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.css-header img {
-    width: 40px;
-    height: 40px;
-}
-.ttl {
-    text-transform: capitalize;
-}
-
 .css-main {
+    padding: 10vh;
     width: 100vw;
-    height: 80vh;
     text-align: center;
     overflow: hidden;
+    font-size: 18px;
+}
+.css-main h2 {
+    padding-top: ;
+}
+.css-main img {
+    width: 250px;
+    height: 250px;
+}
+.padding {
+    padding-top: 20vh;
 }
 .home {
     display: flex;
@@ -59,18 +52,16 @@ h2, h3 {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 80vh;
+    text-align: center;
 }
 .fazendo {
     width: 100vw;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .finalizados {
     width: 100vw;
-    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -85,7 +76,6 @@ h2, h3 {
 }
 .lista-desejos {
     width: 100vw;
-    height: 80vh;
     display: flex;
     flex-direction: column;
 }
@@ -112,8 +102,11 @@ h2, h3 {
 
 .css-footer {
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
     color: white;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
