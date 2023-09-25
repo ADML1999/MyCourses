@@ -1,3 +1,8 @@
+h2, h3 {
+    color: red;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .css-nav {
     width: 100vw;
     height: 5vh;
@@ -46,30 +51,15 @@
     width: 100vw;
     height: 80vh;
     text-align: center;
-    font-size: 18px;
     overflow: hidden;
-}
-.css-main h2 {
-    font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.css-main h3 {
-    color: red;
 }
 .home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(255, 128, 170);
     width: 100vw;
     height: 80vh;
-    background-image: url(/40595137_1033954676783059_9056232267839438848_n.jpg);
-    background-size: 35%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.home h2 {
-    font-size: 40px;
 }
 .fazendo {
     width: 100vw;
@@ -77,8 +67,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 24px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .finalizados {
     width: 100vw;
@@ -86,11 +74,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 24px;
-}
-.titulo {
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .cursos {
     display: flex;
@@ -131,14 +114,11 @@
     height: 80vh;
     overflow-x: hidden;
     overflow-y: scroll;
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .mais-info h5 {
     font-size: 50px;
     color: palevioletred;
 }
-
 
 .css-footer {
     width: 100vw;
